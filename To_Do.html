@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruf TODO APP</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">This is a TODO app made by MARUF!!!</h1>
+    <div class="todo-input">
+        <h3 id="title">Enter Title</h3>
+        <input type="text" id="title-text">
+        <br>
+        <h3 id="title">Enter Description</h3>
+        <input type="text" id="description-text">
+        <br>
+        <button id="submit-button" onclick="submitTODO()">Submit Todo</button>
+        <button id="clear-button" onclick="clearTask()">Clear All Tasks</button>
+    </div>
+
+    <div id="TODOS"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

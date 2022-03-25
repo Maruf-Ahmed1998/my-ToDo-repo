@@ -1,0 +1,29 @@
+.todo-item{
+    border-radius: 15px;
+    background-color: salmon;
+    width: 500px;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.todo-input{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px 10px;
+    
+    
+}
+#title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#submit-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
